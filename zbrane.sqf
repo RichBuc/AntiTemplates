@@ -32,7 +32,7 @@ _militaryLoadoutData setVariable ["sidearms", []];
 _policeLoadoutData setVariable ["smgs", []];
 _policeLoadoutData setVariable ["sidearms", []];
 
-////////////////////////////////
+//////////////////////////////// kokoti picovina
 //    Militia Loadout Data    // slabi vojaci
 //////////////////////////////// ak-cka a pod.
 
