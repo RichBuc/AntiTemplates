@@ -1,8 +1,8 @@
 ///////////////////////////////////////
 //    Special Forces Loadout Data    // toto su blue tigerstripe policajti
 /////////////////////////////////////// zenitco ak, railovane vzory a pod.
-
-//["Weapon", "Muzzle", "Rail", "Sight", [], [], "Bipod"];
+//["Weapon", "Muzzle", "Rail", "Sight", [], [], "Bipod"],
+//priklad - ["rhs_weap_pp2000", "", "", "rhs_acc_1p87", ["rhs_mag_9x19mm_7n31_44"], [], ""],
 
 _sfLoadoutData setVariable ["rifles", []];
 _sfLoadoutData setVariable ["carbines", []];
