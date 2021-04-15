@@ -16,7 +16,9 @@ _sfLoadoutData setVariable ["sidearms", []];
 //    Military Loadout Data    // obycajni vojaci
 ///////////////////////////////// m21?
 
-_militaryLoadoutData setVariable ["rifles", []];
+_militaryLoadoutData setVariable ["rifles", [
+["rhs_weap_m21a", "", "", "", ["rhsgref_30rnd_556x45_m21"], [], ""],
+]];
 _militaryLoadoutData setVariable ["carbines", []];
 _militaryLoadoutData setVariable ["grenadeLaunchers", []];
 _militaryLoadoutData setVariable ["SMGs", []];
