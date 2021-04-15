@@ -1,0 +1,61 @@
+//////////////////////////
+//       Vehicles       //
+//////////////////////////
+
+["ammobox", "B_supplyCrate_F"] call _fnc_saveToTemplate;
+["surrenderCrate", "Box_IND_Wps_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
+["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
+
+["vehiclesBasic", []] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
+["vehiclesLightArmed",[]] call _fnc_saveToTemplate;
+["vehiclesTrucks", []] call _fnc_saveToTemplate;
+["vehiclesCargoTrucks", []] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", []] call _fnc_saveToTemplate;
+["vehiclesRepairTrucks", []] call _fnc_saveToTemplate;
+["vehiclesFuelTrucks", []] call _fnc_saveToTemplate;
+["vehiclesMedical", []] call _fnc_saveToTemplate;
+["vehiclesAPCs", []] call _fnc_saveToTemplate;
+["vehiclesTanks", []] call _fnc_saveToTemplate;
+["vehiclesAA", []] call _fnc_saveToTemplate;
+["vehiclesLightAPCs", []] call _fnc_saveToTemplate;			//this line determines light APCs
+["vehiclesIFVs", []] call _fnc_saveToTemplate;				//this line determines IFVs
+
+
+["vehiclesTransportBoats", []] call _fnc_saveToTemplate;
+["vehiclesGunBoats", []] call _fnc_saveToTemplate;
+["vehiclesAmphibious", []] call _fnc_saveToTemplate;
+
+["vehiclesPlanesCAS", []] call _fnc_saveToTemplate;
+["vehiclesPlanesAA", []] call _fnc_saveToTemplate;
+["vehiclesPlanesTransport", []] call _fnc_saveToTemplate;
+
+["vehiclesHelisLight", []] call _fnc_saveToTemplate;
+["vehiclesHelisTransport", []] call _fnc_saveToTemplate;
+["vehiclesHelisAttack", []] call _fnc_saveToTemplate;
+
+["vehiclesArtillery", []] call _fnc_saveToTemplate;
+
+["uavsAttack", []] call _fnc_saveToTemplate;
+["uavsPortable", []] call _fnc_saveToTemplate;
+
+//Config special vehicles
+["vehiclesMilitiaLightArmed", []] call _fnc_saveToTemplate;
+["vehiclesMilitiaTrucks", []] call _fnc_saveToTemplate;
+["vehiclesMilitiaCars", []] call _fnc_saveToTemplate;
+
+["vehiclesPolice", []] call _fnc_saveToTemplate;
+
+["staticMGs", []] call _fnc_saveToTemplate;
+["staticAT", []] call _fnc_saveToTemplate;
+["staticAA", []] call _fnc_saveToTemplate;
+["staticMortars", []] call _fnc_saveToTemplate;
+
+["mortarMagazineHE", ""] call _fnc_saveToTemplate;
+["mortarMagazineSmoke", ""] call _fnc_saveToTemplate;
+
+//Bagged weapon definitions
+["baggedMGs", [[]]] call _fnc_saveToTemplate;
+["baggedAT", [[]]] call _fnc_saveToTemplate;
+["baggedAA", [[]]] call _fnc_saveToTemplate;
+["baggedMortars", [[]]] call _fnc_saveToTemplate;
