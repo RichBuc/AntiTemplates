@@ -1,6 +1,6 @@
 ///////////////////////////////////////
-//    Special Forces Loadout Data    //
-///////////////////////////////////////
+//    Special Forces Loadout Data    // toto su blue tigerstripe policajti
+/////////////////////////////////////// zenitco ak, railovane vzory a pod.
 
 //["Weapon", "Muzzle", "Rail", "Sight", [], [], "Bipod"];
 
@@ -13,8 +13,8 @@ _sfLoadoutData setVariable ["marksmanRifles", []];
 _sfLoadoutData setVariable ["sniperRifles", []];
 _sfLoadoutData setVariable ["sidearms", []];
 /////////////////////////////////
-//    Military Loadout Data    //
-/////////////////////////////////
+//    Military Loadout Data    // obycajni vojaci
+///////////////////////////////// m21?
 
 _militaryLoadoutData setVariable ["rifles", []];
 _militaryLoadoutData setVariable ["carbines", []];
@@ -26,15 +26,15 @@ _militaryLoadoutData setVariable ["sniperRifles", []];
 _militaryLoadoutData setVariable ["sidearms", []];
 
 ///////////////////////////////
-//    Police Loadout Data    //
-///////////////////////////////
+//    Police Loadout Data    // slabi policajti
+/////////////////////////////// male samopaly, slabe ak-cka
 
 _policeLoadoutData setVariable ["smgs", []];
 _policeLoadoutData setVariable ["sidearms", []];
 
 ////////////////////////////////
-//    Militia Loadout Data    //
-////////////////////////////////
+//    Militia Loadout Data    // slabi vojaci
+//////////////////////////////// ak-cka a pod.
 
 _militiaLoadoutData setVariable ["rifles", []];
 _militiaLoadoutData setVariable ["carbines", []];
