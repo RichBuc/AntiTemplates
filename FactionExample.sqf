@@ -2,12 +2,12 @@
 //   Side Information   //
 //////////////////////////
 
-["name", ""] call _fnc_saveToTemplate;
-["spawnMarkerName", ""] call _fnc_saveToTemplate;
+["name", "AAF"] call _fnc_saveToTemplate;
+["spawnMarkerName", "AAF Support Corridor"] call _fnc_saveToTemplate;
 
-["flag", ""] call _fnc_saveToTemplate;
-["flagTexture", ""] call _fnc_saveToTemplate;
-["flagMarkerType", ""] call _fnc_saveToTemplate;
+["flag", "Flag_AAF_F"] call _fnc_saveToTemplate;
+["flagTexture", "a3\data_f\flags\flag_aaf_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_AAF"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //
@@ -17,7 +17,7 @@
 ["surrenderCrate", "Box_IND_Wps_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
-["vehiclesBasic", []] call _fnc_saveToTemplate;
+["vehiclesBasic", ["I_Quadbike_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
 ["vehiclesLightArmed",[]] call _fnc_saveToTemplate;
 ["vehiclesTrucks", []] call _fnc_saveToTemplate;
@@ -160,6 +160,7 @@ private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData;
 _sfLoadoutData setVariable ["uniforms", []];
 _sfLoadoutData setVariable ["vests", []];
 _sfLoadoutData setVariable ["backpacks", []];
+_sfLoadoutData setVariable ["SLbackpacks", []];	//radia
 _sfLoadoutData setVariable ["helmets", []];
 _sfLoadoutData setVariable ["binoculars", []];
 //["Weapon", "Muzzle", "Rail", "Sight", [], [], "Bipod"];
@@ -179,7 +180,13 @@ _sfLoadoutData setVariable ["sidearms", []];
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData;
 _militaryLoadoutData setVariable ["uniforms", []];
 _militaryLoadoutData setVariable ["vests", []];
+_militaryLoadoutData setVariable ["SLvests", []];
+_militaryLoadoutData setVariable ["MEDvests", []];
+_militaryLoadoutData setVariable ["MGvests", []];
+_militaryLoadoutData setVariable ["ENGvests", []];
+_militaryLoadoutData setVariable ["MKvests", []];
 _militaryLoadoutData setVariable ["backpacks", []];
+_sfLoadoutData setVariable ["SLbackpacks", []];	//radia
 _militaryLoadoutData setVariable ["helmets", []];
 _militaryLoadoutData setVariable ["binoculars", []];
 
