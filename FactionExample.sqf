@@ -18,58 +18,61 @@
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
 ["vehiclesBasic", ["I_Quadbike_01_F"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
-["vehiclesLightArmed",[]] call _fnc_saveToTemplate;
-["vehiclesTrucks", []] call _fnc_saveToTemplate;
-["vehiclesCargoTrucks", []] call _fnc_saveToTemplate;
-["vehiclesAmmoTrucks", []] call _fnc_saveToTemplate;
-["vehiclesRepairTrucks", []] call _fnc_saveToTemplate;
-["vehiclesFuelTrucks", []] call _fnc_saveToTemplate;
-["vehiclesMedical", []] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["FGN_AAF_Tigr", "FGN_AAF_Tigr_M", "FGN_AAF_M1025_unarmed", "FGN_AAF_M998_2D_Fulltop", "FGN_AAF_M998_2D_Halftop", "FGN_AAF_M998_4D_Fulltop"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed",["FGN_AAF_Tigr_STS", "FGN_AAF_M1025_M2", "FGN_AAF_M1025_MK19"]] call _fnc_saveToTemplate;
+["vehiclesTrucks", ["FGN_AAF_Ural", "FGN_AAF_Zamak"]] call _fnc_saveToTemplate;
+["vehiclesCargoTrucks", ["FGN_AAF_Ural_open", "FGN_AAF_Zamak_Open"]] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", ["FGN_AAF_Zamak_Ammo"]] call _fnc_saveToTemplate;
+["vehiclesRepairTrucks", ["FGN_AAF_Ural_Repair", "FGN_AAF_Zamak_Repair"]] call _fnc_saveToTemplate;
+["vehiclesFuelTrucks", ["FGN_AAF_Ural_Fuel", "FGN_AAF_Zamak_Fuel"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["FGN_AAF_Zamak_Medic"]] call _fnc_saveToTemplate;
 ["vehiclesAPCs", []] call _fnc_saveToTemplate;
 ["vehiclesTanks", []] call _fnc_saveToTemplate;
-["vehiclesAA", []] call _fnc_saveToTemplate;
+["vehiclesAA", ["FGN_AAF_Ural_ZU23"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", []] call _fnc_saveToTemplate;			//this line determines light APCs
-["vehiclesIFVs", []] call _fnc_saveToTemplate;				//this line determines IFVs
+["vehiclesIFVs", ["FGN_AAF_BMP3M_ERA"]] call _fnc_saveToTemplate;				//this line determines IFVs
 
 
-["vehiclesTransportBoats", []] call _fnc_saveToTemplate;
+["vehiclesTransportBoats", ["I_C_Boat_Transport_01_F", "I_C_Boat_Transport_02_F"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", []] call _fnc_saveToTemplate;
-["vehiclesAmphibious", []] call _fnc_saveToTemplate;
+["vehiclesAmphibious", ["FGN_AAF_BMP3M_ERA"]] call _fnc_saveToTemplate;
 
-["vehiclesPlanesCAS", []] call _fnc_saveToTemplate;
+["vehiclesPlanesCAS", ["FGN_AAF_L159_dynamicLoadout"]] call _fnc_saveToTemplate;
 ["vehiclesPlanesAA", []] call _fnc_saveToTemplate;
 ["vehiclesPlanesTransport", []] call _fnc_saveToTemplate;
 
-["vehiclesHelisLight", []] call _fnc_saveToTemplate;
-["vehiclesHelisTransport", []] call _fnc_saveToTemplate;
-["vehiclesHelisAttack", []] call _fnc_saveToTemplate;
+["vehiclesHelisLight", ["I_Heli_light_03_unarmed_F"]] call _fnc_saveToTemplate;
+["vehiclesHelisTransport", ["FGN_AAF_KA60_unarmed"]] call _fnc_saveToTemplate;
+["vehiclesHelisAttack", ["FGN_AAF_KA60_dynamicLoadout"]] call _fnc_saveToTemplate;
 
-["vehiclesArtillery", []] call _fnc_saveToTemplate;
+["vehiclesArtillery", [
+["rhs_2s1_tv", ["rhs_mag_3of56_10"]],
+["RHS_BM21_VV_01", ["rhs_mag_m21of_1"]]
+]] call _fnc_saveToTemplate;
 
 ["uavsAttack", []] call _fnc_saveToTemplate;
 ["uavsPortable", []] call _fnc_saveToTemplate;
 
 //Config special vehicles
-["vehiclesMilitiaLightArmed", []] call _fnc_saveToTemplate;
-["vehiclesMilitiaTrucks", []] call _fnc_saveToTemplate;
-["vehiclesMilitiaCars", []] call _fnc_saveToTemplate;
+["vehiclesMilitiaLightArmed", ["FGN_AAF_Reserve_M1025_M2", "FGN_AAF_Reserve_M1025_MK19"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaTrucks", ["FGN_AAF_Reserve_Ural", "FGN_AAF_Reserve_Ural_open"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaCars", ["FGN_AAF_Reserve_M1025_unarmed", "FGN_AAF_Reserve_M998_2D_Fulltop", "FGN_AAF_Reserve_M998_2D_Halftop", "FGN_AAF_Reserve_M998_4D_Fulltop"]] call _fnc_saveToTemplate;
 
-["vehiclesPolice", []] call _fnc_saveToTemplate;
+["vehiclesPolice", ["FGN_AAF_Police_Offroad"]] call _fnc_saveToTemplate;
 
-["staticMGs", []] call _fnc_saveToTemplate;
-["staticAT", []] call _fnc_saveToTemplate;
-["staticAA", []] call _fnc_saveToTemplate;
-["staticMortars", []] call _fnc_saveToTemplate;
+["staticMGs", ["rhs_KORD_high_MSV", "FGN_AAF_Reserve_M2"]] call _fnc_saveToTemplate;
+["staticAT", ["FGN_AAF_KornetM", "FGN_AAF_Reserve_SPG9M_TriPod"]] call _fnc_saveToTemplate;
+["staticAA", ["FGN_AAF_ZU23", "FGN_AAF_9K8Igla_TriPod"]] call _fnc_saveToTemplate;
+["staticMortars", ["rhs_2b14_82mm_msv"]] call _fnc_saveToTemplate;
 
-["mortarMagazineHE", ""] call _fnc_saveToTemplate;
-["mortarMagazineSmoke", ""] call _fnc_saveToTemplate;
+["mortarMagazineHE", "rhs_mag_3vo18_10"] call _fnc_saveToTemplate;
+["mortarMagazineSmoke", "rhs_mag_d832du_10"] call _fnc_saveToTemplate;
 
 //Bagged weapon definitions
-["baggedMGs", [[]]] call _fnc_saveToTemplate;
-["baggedAT", [[]]] call _fnc_saveToTemplate;
+["baggedMGs", [["RHS_Kord_Gun_Bag", "RHS_Kord_Tripod_Bag", "RHS_M2_Gun_Bag", "RHS_M2_Tripod_Bag"]]] call _fnc_saveToTemplate;
+["baggedAT", [["HS_SPG9_Gun_Bag", "RHS_SPG9_Tripod_Bag"]]] call _fnc_saveToTemplate;
 ["baggedAA", [[]]] call _fnc_saveToTemplate;
-["baggedMortars", [[]]] call _fnc_saveToTemplate;
+["baggedMortars", [["RHS_Podnos_Gun_Bag", "RHS_Podnos_Bipod_Bag"]]] call _fnc_saveToTemplate;
 
 //Minefield definition
 //CFGVehicles variant of Mines are needed "ATMine", "APERSTripMine", "APERSMine"
